@@ -1,6 +1,7 @@
-const mongoode = require('mongoose');
+export{}
+const mongoose = require('mongoose');
 
-const hotelSchema = mongoose.Schema({
+const hotelSchema = new mongoose.Schema({
     name: String,
     price: Number,
     image: String,
